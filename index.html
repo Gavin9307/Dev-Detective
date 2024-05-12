@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Dev Detective</title>
 </head>
 <body>
@@ -13,7 +16,7 @@
         <header class="header">
             <h1 class="title">Dev Detective</h1>
             <div class="btn-mode">
-                <p id="mode-text"></p>
+                <p id="mode-text">Light</p>
                 <div class="icon-container">
                     <img id="mode-icon" src="./assets/moon-icon.svg" alt="light mode icon">
                 </div>
@@ -22,13 +25,15 @@
 
          <!-- Main Section -->
         <main class="main-container">
+            
             <div class="search-container">
-                <input type="search" name="user-input" id="input" placeholder="Enter Github Username ..." required>
+                <input type="search" name="user-input" id="input" placeholder="Github Username ..." required>
                 <div class="error">
                     <p id="no-results">Not Found</p>
                 </div>
                 <button class="btn-search" id="submit">Search</button>
             </div>
+
             <div class="profile-container">
                 <div class="profile-header">
                     <img id="avatar" src="" alt="">
@@ -69,13 +74,13 @@
                         <div class="bottom-icons">
                             <img src="./assets/website-icon.svg" alt="">
                         </div>
-                        <p id="website"></p>
+                        <a href="" id="website"></a>
                     </div>
                     <div class="profile-info">
                         <div class="bottom-icons">
                             <img src="./assets/twitter-icon.svg" alt="">
                         </div>
-                        <p id="twitter"></p>
+                        <a href="" id="twitter"></a>
                     </div>
                     <div class="profile-info">
                         <div class="bottom-icons">
