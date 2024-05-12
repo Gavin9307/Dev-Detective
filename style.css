@@ -246,3 +246,19 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.dm-text {
+  color: var(--dm-text);
+}
+
+.dm-bg {
+  background-color: var(--dm-bg);
+}
+
+.dm-bg-sec {
+  background-color: var(--dm-bg-content);
+}
+
+.active {
+  box-shadow: var(--lm-shadow);
+}
