@@ -16,7 +16,6 @@
         <header class="header">
             <h1 class="title">Dev Detective</h1>
             <div class="btn-mode">
-                <p id="mode-text">Light</p>
                 <div class="icon-container">
                     <img id="mode-icon" src="./assets/moon-icon.svg" alt="light mode icon">
                 </div>
@@ -27,7 +26,7 @@
         <main class="main-container">
             
             <div class="search-container">
-                <input type="search" name="user-input" id="input" placeholder="Github Username ..." required>
+                <input type="search" name="user-input" id="input" placeholder="Github Username ..." required autocomplete="off">
                 <div class="error">
                     <p id="no-results">Not Found</p>
                 </div>
@@ -42,7 +41,7 @@
                             <h2 id="name"></h2>
                             <a href="#" target="_blank" id="user"></a>
                         </div>
-                        <p id="data"></p>
+                        <p id="date"></p>
                     </div>
                 </div>
 
@@ -51,15 +50,15 @@
                 <div class="profile-stats-wrapper">
                     <div class="profile-stat">
                         <p class="stat-title">Repos</p>
-                        <p class="stat-value"></p>
+                        <p id="repos" class="stat-value"></p>
                     </div>
                     <div class="profile-stat">
                         <p class="stat-title">Followers</p>
-                        <p class="stat-value"></p>
+                        <p id="followers" class="stat-value"></p>
                     </div>
                     <div class="profile-stat">
                         <p class="stat-title">Following</p>
-                        <p class="stat-value"></p>
+                        <p id="following" class="stat-value"></p>
                     </div>
                 </div>
 

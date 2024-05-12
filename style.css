@@ -49,17 +49,6 @@ body {
   align-items: center;
 }
 
-.btn-mode {
-  display: flex;
-  width: 80px;
-  justify-content: space-between;
-  align-items: center;
-  letter-spacing: 2.5px;
-  color: var(--lm-text);
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
 .btn-mode:hover {
   cursor: pointer;
 }
@@ -86,6 +75,10 @@ body {
   background-position-x: 24px;
   background-position-y: center;
   background-size: 20px;
+}
+
+.search-container > input::-webkit-search-cancel-button {
+  display: none;
 }
 
 .search-container > input {
