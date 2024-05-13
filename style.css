@@ -255,3 +255,15 @@ body {
 .active {
   box-shadow: var(--lm-shadow);
 }
+
+@media only screen and (min-width: 767px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .container {
+    width: 700px;
+  }
+}
